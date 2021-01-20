@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Ahmad Anshori",
+  "main": "index.js",
+  "homepage": "https://gitlab.com/ahmadanshori/portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Ahmad Anshori",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
