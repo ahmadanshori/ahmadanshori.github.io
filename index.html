@@ -1,657 +1,197 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Portfolio</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!--=====================================================
-			CSS Stylesheets
-        =====================================================-->
-    <link rel="icon" href="img/color-wheel.png" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="bootstrap/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/linea.css" />
-    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  </head>
-  <body>
-    <!--=====================================================
-			Preloader
-		=====================================================-->
-    <div id="preloader">
-      <div class="loader"></div>
-      <div class="left"></div>
-      <div class="right"></div>
-    </div>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <div class="main-content">
-      <!--=====================================================
-				Page Borders
-			=====================================================-->
-      <div class="page-border border-left"></div>
-      <div class="page-border border-right"></div>
-      <div class="page-border border-top"></div>
-      <div class="page-border border-bottom"></div>
-
-      <!--=====================================================
-				Menu Button
-			=====================================================-->
-      <a href="#" class="menu-btn">
-        <span class="lines">
-          <span class="l1"></span>
-          <span class="l2"></span>
-          <span class="l3"></span>
-        </span>
-      </a>
-
-      <!--=====================================================
-				Menu
-			=====================================================-->
-      <div class="menu">
-        <div class="inner">
-          <ul class="menu-items">
-            <!-- <li>
-              <a href="#" class="section-toggle" data-section="intro">
-                Home
-              </a>
-            </li> -->
-            <li>
-              <a href="#" class="section-toggle" data-section="about">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#portfolio"
-                class="section-toggle"
-                data-section="portfolio"
-              >
-                Portfolio
-              </a>
-            </li>
-
-            <li>
-              <a href="#contact" class="section-toggle" data-section="contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="animation-block"></div>
-
-      <!--=====================================================
-				Sections
-			=====================================================-->
-      <div class="sections">
-        <!--=====================================================
-					About Section
-				=====================================================-->
-        <section id="about" class="section about-section border-d active">
-          <div class="section-block about-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>About <strong class="color">Me</strong></h2>
-              </div>
-
-              <div class="row">
-                <div class="col-md-4">
-                  <ul class="info-list">
-                    <li>
-                      <strong>Name:</strong>
-                      <span>Ahmad Anshori</span>
-                    </li>
-
-                    <li>
-                      <strong>Job:</strong>
-                      <span>Front End Developer</span>
-                    </li>
-
-                    <li>
-                      <strong>Residence:</strong>
-                      <span>Indonesia</span>
-                    </li>
-                  </ul>
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Marlon</a>
                 </div>
 
-                <div class="col-md-8">
-                  <div class="about-text">
-                    <p>
-                      My name is Ahmad Anshori, but you can call me ori. I was
-                      born in Bogor, 30 November 1995, I graduated from
-                      Gunadarma University majoring in computer system.
-                    </p>
-
-                    <p>
-                      I am a mobile developer with strong passion to learn new
-                      things. I can make Android and iOS applications, I am
-                      familiar with a few Javascript frameworks, Currently, I am
-                      interested and learning about ReactJs and React Native.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="section-block services-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>My <strong class="color">Services</strong></h2>
-              </div>
-
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="service">
-                    <div class="icon">
-                      <i class="icon-basic-smartphone"></i>
-                    </div>
-
-                    <div class="content">
-                      <h4>Mobile Development</h4>
-
-                      <p>
-                        I will develop your app myself from scratch to end, and
-                        will liaise with you on every stage to make sure that
-                        the app meets your requirements. Do not worry about the
-                        quality of your app as I like to do things as perfect as
-                        possible, and I surely have the capacity of experience
-                        in React Native.
-                      </p>
-                    </div>
-                  </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
                 </div>
 
-                <div class="col-md-4">
-                  <div class="service">
-                    <div class="icon">
-                      <i class="icon-basic-webpage"></i>
-                    </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-                    <div class="content">
-                      <h4>Web Development</h4>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
 
-                      <p>
-                        I'll build React applications by creating reusable
-                        components by writing a clean and optimized code using
-                        best practices that will load faster and increase
-                        performance with full responsiveness on all devices.
-                        Feel free to ask me anything. I'm available to respond
-                        to you quickly.
-                      </p>
-                    </div>
-                  </div>
+                    <a href="#" class="button">Contact</a>
                 </div>
 
-                <!-- <div class="col-md-4">
-                  <div class="service">
-                    <div class="icon">
-                      <i class="icon-basic-video"></i>
-                    </div>
-
-                    <div class="content">
-                      <h4>Whiteboard Animation</h4>
-
-                      <p>
-                        I will create a professional whiteboard animation or
-                        explainer video
-                      </p>
-                    </div>
-                  </div>
-                </div> -->
-              </div>
-            </div>
-          </div>
-
-          <div class="section-block skills-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>My <strong class="color">Skills</strong></h2>
-              </div>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="skill">
-                    <h4>React Native</h4>
-
-                    <div class="bar">
-                      <div class="percent" style="width: 95%;"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill">
-                    <h4>ReactJs</h4>
-
-                    <div class="bar">
-                      <div class="percent" style="width: 75%;"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill">
-                    <h4>html/css/javascript</h4>
-
-                    <div class="bar">
-                      <div class="percent" style="width: 85%;"></div>
-                    </div>
-                  </div>
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
-                <div class="col-md-6">
-                  <div class="skill">
-                    <h4>backend (nodejs)</h4>
-                    <div class="bar">
-                      <div class="percent" style="width: 85%;"></div>
-                    </div>
-                  </div>
-                  <div class="skill">
-                    <h4>Sql</h4>
-                    <div class="bar">
-                      <div class="percent" style="width: 80%;"></div>
-                    </div>
-                  </div>
-                  <div class="skill">
-                    <h4>Photoshop</h4>
-                    <div class="bar">
-                      <div class="percent" style="width: 70%;"></div>
-                    </div>
-                  </div>
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="">
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
+            </section>
 
-        <!--=====================================================
-					Portfolio Section
-				=====================================================-->
-        <section id="portfolio" class="section portfolio-section border-d">
-          <div class="section-block portfolio-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>My <strong class="color">Works</strong></h2>
-              </div>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
 
-              <ul class="portfolio-filters">
-                <li>
-                  <a href="#" class="active" data-group="all">
-                    All
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-group="mobile">
-                    Mobile app
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-group="tech">
-                    Website
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-group="photography">
-                    Photography
-                  </a>
-                </li>
-              </ul>
-
-              <ul class="portfolio-items">
-                <li data-groups='["mobile","tech"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/1.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-1" class="view-project">
-                        View Project
-                      </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-1"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/1.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
                     </div>
-                  </div>
-                </li>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Marlon</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
 
-                <li data-groups='["tech","photography"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/2.jpg" alt />
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-                    <div class="overlay">
-                      <a href="#popup-2" class="view-project">
-                        View Project
-                      </a>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
 
-                      <!--project popup-->
-                      <div
-                        id="popup-2"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/2.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
                         </div>
-                      </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </li>
-
-                <li data-groups='["mobile","photography"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/3.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-3" class="view-project">
-                        View Project
-                      </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-3"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/3.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
-                  </div>
-                </li>
+                </div>
+            </section>
 
-                <li data-groups='["mobile"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/eyelovin.png" alt />
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
 
-                    <div class="overlay">
-                      <a href="#popup-4" class="view-project">
-                        View Project
-                      </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-4"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <!-- <figure> -->
-                        <!--project popup image-->
-                        <iframe
-                          width="560"
-                          height="315"
-                          src="https://www.youtube.com/embed/ImKUP5VLC5U"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
-                        ></iframe>
-                        <!-- <img src="img/portfolio/4.jpg" alt /> -->
-                        <!-- </figure> -->
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>
-                            <a href="https://www.eyelovin.com/">Eyelovin</a>
-                          </h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Marketplace softlens.
-                          </p>
-                        </div>
-                      </div>
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
                     </div>
-                  </div>
-                </li>
-
-                <li data-groups='["tech"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/5.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-5" class="view-project">
-                        View Project
-                      </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-5"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/5.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
                     </div>
-                  </div>
-                </li>
-
-                <li data-groups='["photography"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/6.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-6" class="view-project">
-                        View Project
-                      </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-6"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/6.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
                     </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
 
-        <!--=====================================================
-					Contact Section
-				=====================================================-->
-        <section id="contact" class="section contact-section border-d">
-          <div class="section-block contact-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>Contact <strong class="color">Me</strong></h2>
-              </div>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
 
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="contact-form">
-                    <form
-                      id="contact-form"
-                      data-toggle="validator"
-                      method="post"
-                      action="mail.php"
-                    >
-                      <div id="contact-form-result"></div>
-
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Name"
-                              name="name"
-                              required
-                            />
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <input
-                              type="email"
-                              class="form-control"
-                              placeholder="Email"
-                              name="email"
-                              required
-                            />
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Subject"
-                          name="subject"
-                          required
-                        />
-                        <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="form-group">
-                        <textarea
-                          class="form-control"
-                          placeholder="Message"
-                          name="message"
-                          rows="5"
-                          required
-                        ></textarea>
-                        <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="form-group text-center">
-                        <button type="submit" class="btn-custom btn-color">
-                          Send Message
-                        </button>
-                      </div>
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
                     </form>
-                  </div>
                 </div>
+            </section>
+        </main>
 
-                <div class="col-md-4">
-                  <div class="contact-info-icons">
-                    <div class="contact-info">
-                      <i class="ion-ios-email-outline"></i>
-
-                      <p>
-                        Ahmadanshorri@gmail.com
-                      </p>
-                    </div>
-
-                    <div class="contact-info">
-                      <i class="ion-ios-telephone-outline"></i>
-                      <p>
-                        085925090097
-                      </p>
-                    </div>
-
-                    <div class="contact-info">
-                      <i class="ion-social-instagram-outline"></i>
-                      <a href="https://www.instagram.com/ahmadanshorri/"
-                        >Ahmad Anshori</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-          </div>
-        </section>
-      </div>
-    </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
 
-    <!--=====================================================
-			JavaScript Files
-		=====================================================-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/validator.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
