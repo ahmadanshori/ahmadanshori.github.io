@@ -1,635 +1,452 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js one-page-layout">
+  <!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
+
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta
+      name="description"
+      content="uCard - Responsive HTML5 vCard Template"
+    />
+    <meta name="keywords" content="vcard, html5, portfolio" />
+    <meta name="author" content="Pixelwars" />
 
-    <title>Portfolio</title>
+    <title>uCard</title>
 
-    <!--=====================================================
-			CSS Stylesheets
-        =====================================================-->
-    <link rel="icon" href="img/color-wheel.png" />
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png" />
+
+    <!-- FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="bootstrap/css/bootstrap.min.css"
+      href="css/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
     />
-    <link rel="stylesheet" type="text/css" href="css/linea.css" />
-    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fonts/fontello/css/fontello.css"
+    />
+    <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="js/jquery.magnific-popup/magnific-popup.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/align.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/768.css" />
+
+    <!-- INITIAL SCRIPTS -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/modernizr.min.js"></script>
+
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+
+    <!-- InstanceParam name="OnePageLayout" type="boolean" value="true" -->
+    <!-- InstanceParam name="Sidebar" type="boolean" value="false" -->
+    <!-- InstanceParam name="PageDefault" type="boolean" value="false" -->
+    <!-- InstanceParam name="PageFixed" type="boolean" value="false" -->
+    <!-- InstanceParam name="PageFull" type="boolean" value="false" -->
+    <!-- InstanceParam name="PagePlain" type="boolean" value="true" -->
+    <!-- InstanceParam name="ClassicMenu" type="boolean" value="false" -->
   </head>
+
   <body>
-    <!--=====================================================
-			Preloader
-		=====================================================-->
-    <div id="preloader">
-      <div class="loader"></div>
-      <div class="left"></div>
-      <div class="right"></div>
-    </div>
+    <!-- PAGE -->
+    <div id="page" class="hfeed site">
+      <!-- .site-main -->
+      <main id="main" class="site-main cd-main">
+        <!-- HEADER -->
+        <header
+          id="masthead"
+          class="header"
+          role="banner"
+          style="background-image: url('images/home/home.jpg')"
+          data-large-image="images/home/home-large.jpg"
+        >
+          <!-- header-wrap -->
+          <div class="header-wrap layout-full">
+            <!-- header bg image -->
+            <img src="images/home/home.jpg" alt="profile-image" />
 
-    <div class="main-content">
-      <!--=====================================================
-				Page Borders
-			=====================================================-->
-      <div class="page-border border-left"></div>
-      <div class="page-border border-right"></div>
-      <div class="page-border border-top"></div>
-      <div class="page-border border-bottom"></div>
+            <!-- logo -->
+            <h1 class="site-title">
+              <!-- text-logo -->
+              <span class="site-title-text">Alex Zeis</span>
 
-      <!--=====================================================
-				Menu Button
-			=====================================================-->
-      <a href="#" class="menu-btn">
-        <span class="lines">
-          <span class="l1"></span>
-          <span class="l2"></span>
-          <span class="l3"></span>
-        </span>
-      </a>
+              <!-- image-logo -->
+              <!--<span class="screen-reader-text">Alex Zeis</span>
+                            <img src="../images/site/logo.png" alt="site logo">-->
+            </h1>
+            <!-- logo -->
 
-      <!--=====================================================
-				Menu
-			=====================================================-->
-      <div class="menu">
-        <div class="inner">
-          <ul class="menu-items">
-            <!-- <li>
-              <a href="#" class="section-toggle" data-section="intro">
-                Home
-              </a>
-            </li> -->
-            <li>
-              <a href="#" class="section-toggle" data-section="about">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#portfolio"
-                class="section-toggle"
-                data-section="portfolio"
+            <!-- site-description -->
+            <p class="site-description">
+              I am
+              <strong
+                id="typist-element"
+                data-typist="a blogger., a wordpress lover., an adventurer."
+                >a writer.</strong
               >
-                Portfolio
-              </a>
-            </li>
+            </p>
 
-            <li>
-              <a href="#contact" class="section-toggle" data-section="contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="animation-block"></div>
-
-      <!--=====================================================
-				Sections
-			=====================================================-->
-      <div class="sections">
-        <!--=====================================================
-					About Section
-				=====================================================-->
-        <section id="about" class="section about-section border-d active">
-          <div class="section-block about-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>About <strong class="color">Me</strong></h2>
-              </div>
-
-              <div class="row">
-                <div class="col-md-4">
-                  <ul class="info-list">
-                    <li>
-                      <strong>Name:</strong>
-                      <span>Ahmad Anshori</span>
-                    </li>
-
-                    <li>
-                      <strong>Job:</strong>
-                      <span>Front End Developer</span>
-                    </li>
-
-                    <li>
-                      <strong>Residence:</strong>
-                      <span>Indonesia</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-md-8">
-                  <div class="about-text">
-                    <p>
-                      My name is Ahmad Anshori, but you can call me ori. I was
-                      born in Bogor, 30 November 1995, I graduated from
-                      Gunadarma University majoring in computer system.
-                    </p>
-
-                    <p>
-                      I am a mobile developer with strong passion to learn new
-                      things. I can make Android and iOS applications, I am
-                      familiar with a few Javascript frameworks, Currently, I am
-                      interested and learning about ReactJs and React Native.
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <!-- header-social -->
+            <div class="header-bottom">
+              <!-- SOCIAL -->
+              <p>
+                <a class="social-link facebook" href="#"></a>
+                <a class="social-link twitter" href="#"></a>
+                <a class="social-link linkedin" href="#"></a>
+                <a class="social-link instagram" href="#"></a>
+              </p>
+              <!-- SOCIAL -->
             </div>
-          </div>
+            <!-- header-social -->
 
-          <div class="section-block services-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>My <strong class="color">Services</strong></h2>
+            <!-- NAV MENU -->
+            <nav
+              id="primary-navigation"
+              class="site-navigation primary-navigation"
+              role="navigation"
+            >
+              <div class="nav-menu menu-with-icons">
+                <ul>
+                  <!-- InstanceBeginEditable name="Menu-Content" -->
+
+                  <!-- InstanceEndEditable -->
+                </ul>
               </div>
+            </nav>
+            <!-- NAV MENU -->
 
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="service">
-                    <div class="icon">
-                      <i class="icon-basic-smartphone"></i>
-                    </div>
-
-                    <div class="content">
-                      <h4>Mobile Development</h4>
-
-                      <p>
-                        I will develop your app myself from scratch to end, and
-                        will liaise with you on every stage to make sure that
-                        the app meets your requirements. Do not worry about the
-                        quality of your app as I like to do things as perfect as
-                        possible, and I surely have the capacity of experience
-                        in React Native.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="service">
-                    <div class="icon">
-                      <i class="icon-basic-webpage"></i>
-                    </div>
-
-                    <div class="content">
-                      <h4>Web Development</h4>
-
-                      <p>
-                        I'll build React applications by creating reusable
-                        components by writing a clean and optimized code using
-                        best practices that will load faster and increase
-                        performance with full responsiveness on all devices.
-                        Feel free to ask me anything. I'm available to respond
-                        to you quickly.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- <div class="col-md-4">
-                  <div class="service">
-                    <div class="icon">
-                      <i class="icon-basic-video"></i>
-                    </div>
-
-                    <div class="content">
-                      <h4>Whiteboard Animation</h4>
-
-                      <p>
-                        I will create a professional whiteboard animation or
-                        explainer video
-                      </p>
-                    </div>
-                  </div>
-                </div> -->
-              </div>
+            <!-- SEARCH -->
+            <div class="header-search">
+              <form role="search" method="get" id="search-form" action="#">
+                <input
+                  type="text"
+                  value=""
+                  name="s"
+                  id="search"
+                  placeholder="type and hit enter"
+                />
+                <input
+                  type="submit"
+                  id="search-submit"
+                  title="Search"
+                  value="→"
+                />
+              </form>
             </div>
+            <!-- SEARCH -->
           </div>
+          <!-- header-wrap -->
 
-          <div class="section-block skills-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>My <strong class="color">Skills</strong></h2>
-              </div>
+          <a class="mouse-scroll" href="#">
+            <span class="mouse">
+              <span class="mouse-movement"> </span>
+            </span>
+          </a>
+        </header>
+        <!-- HEADER -->
 
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="skill">
-                    <h4>React Native</h4>
+        <!-- site-middle -->
+        <div class="site-middle">
+          <div class="layout-plain">
+            <div id="primary" class="content-area">
+              <!-- site-content -->
+              <div id="content" class="site-content" role="main">
+                <!-- InstanceBeginEditable name="Page-Content" -->
 
-                    <div class="bar">
-                      <div class="percent" style="width: 95%"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill">
-                    <h4>ReactJs</h4>
-
-                    <div class="bar">
-                      <div class="percent" style="width: 75%"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill">
-                    <h4>html/css/javascript</h4>
-
-                    <div class="bar">
-                      <div class="percent" style="width: 85%"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="skill">
-                    <h4>backend (nodejs)</h4>
-                    <div class="bar">
-                      <div class="percent" style="width: 85%"></div>
-                    </div>
-                  </div>
-                  <div class="skill">
-                    <h4>Sql</h4>
-                    <div class="bar">
-                      <div class="percent" style="width: 80%"></div>
-                    </div>
-                  </div>
-                  <div class="skill">
-                    <h4>Photoshop</h4>
-                    <div class="bar">
-                      <div class="percent" style="width: 70%"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!--=====================================================
-					Portfolio Section
-				=====================================================-->
-        <section id="portfolio" class="section portfolio-section border-d">
-          <div class="section-block portfolio-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>My <strong class="color">Works</strong></h2>
-              </div>
-
-              <ul class="portfolio-filters">
-                <li>
-                  <a href="#" class="active" data-group="all"> All </a>
-                </li>
-                <li>
-                  <a href="#" data-group="mobile"> Mobile app </a>
-                </li>
-                <li>
-                  <a href="#" data-group="tech"> Website </a>
-                </li>
-                <li>
-                  <a href="#" data-group="photography"> Photography </a>
-                </li>
-              </ul>
-
-              <ul class="portfolio-items">
-                <li data-groups='["mobile","tech"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/1.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-1" class="view-project"> View Project </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-1"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/1.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
+                <!-- .cd-gallery -->
+                <ul class="cd-gallery">
+                  <li class="cd-item">
+                    <img src="images/home/about.jpg" alt="image" />
+                    <a href="about.html" data-slug="about">
+                      <div>
+                        <i class="pe-7s-user"></i>
+                        <h2>about me</h2>
+                        <p>Get to know about me and more.</p>
+                        <b>View More</b>
                       </div>
-                    </div>
-                  </div>
-                </li>
+                    </a>
+                  </li>
 
-                <li data-groups='["tech","photography"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/2.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-2" class="view-project"> View Project </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-2"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/2.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
+                  <li class="cd-item">
+                    <img src="images/home/resume.jpg" alt="image" />
+                    <a href="resume.html" data-slug="resume">
+                      <div>
+                        <i class="pe-7s-id"></i>
+                        <h2>resume</h2>
+                        <p>Learn more about my studies and works.</p>
+                        <b>View More</b>
                       </div>
-                    </div>
-                  </div>
-                </li>
+                    </a>
+                  </li>
 
-                <li data-groups='["mobile","photography"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/3.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-3" class="view-project"> View Project </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-3"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/3.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li data-groups='["mobile"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/eyelovin.png" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-4" class="view-project"> View Project </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-4"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <!-- <figure> -->
-                        <!--project popup image-->
-                        <iframe
-                          width="560"
-                          height="315"
-                          src="https://www.youtube.com/embed/ImKUP5VLC5U"
-                          frameborder="0"
-                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
-                        ></iframe>
-                        <!-- <img src="img/portfolio/4.jpg" alt /> -->
-                        <!-- </figure> -->
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>
-                            <a href="https://www.eyelovin.com/">Eyelovin</a>
-                          </h4>
-
-                          <!--project popup description-->
-                          <p>Marketplace softlens.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li data-groups='["tech"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/5.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-5" class="view-project"> View Project </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-5"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/5.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li data-groups='["photography"]'>
-                  <div class="inner">
-                    <img src="img/portfolio/6.jpg" alt />
-
-                    <div class="overlay">
-                      <a href="#popup-6" class="view-project"> View Project </a>
-
-                      <!--project popup-->
-                      <div
-                        id="popup-6"
-                        class="popup-box zoom-anim-dialog mfp-hide"
-                      >
-                        <figure>
-                          <!--project popup image-->
-                          <img src="img/portfolio/6.jpg" alt />
-                        </figure>
-                        <div class="content">
-                          <!--project popup title-->
-                          <h4>My Project Title</h4>
-
-                          <!--project popup description-->
-                          <p>
-                            Consul latine iudicabit eu vel. Cu has animal
-                            eruditi voluptatibus. Eu volumus explicari sed. Mel
-                            mutat vituperata suscipiantur et, et fabellas
-                            explicari adipiscing quo, no mucius euismod vis. Cu
-                            vim quem quod cibo.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <!--=====================================================
-					Contact Section
-				=====================================================-->
-        <section id="contact" class="section contact-section border-d">
-          <div class="section-block contact-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>Contact <strong class="color">Me</strong></h2>
-              </div>
-
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="contact-form">
-                    <form
-                      id="contact-form"
-                      data-toggle="validator"
-                      method="post"
-                      action="mail.php"
+                  <li class="cd-item">
+                    <img src="images/home/portfolio.jpg" alt="image" />
+                    <a
+                      id="portfolio-link"
+                      href="portfolio.html"
+                      data-slug="portfolio"
                     >
-                      <div id="contact-form-result"></div>
+                      <div>
+                        <i class="pe-7s-portfolio"></i>
+                        <h2>portfolio</h2>
+                        <p>Find out what i have done so far.</p>
+                        <b>View More</b>
+                      </div>
+                    </a>
+                  </li>
 
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group">
+                  <li class="cd-item">
+                    <img src="images/home/blog.jpg" alt="image" />
+                    <a href="blog-latest.html" data-slug="blog">
+                      <div>
+                        <i class="pe-7s-notebook"></i>
+                        <h2>blog</h2>
+                        <p>Sometimes i do write about stuff.</p>
+                        <b>View More</b>
+                      </div>
+                    </a>
+                  </li>
+
+                  <!-- Home-Box with Custom Url -->
+                  <!--<li class="cd-item">
+                                   		<img src="images/home/blog.jpg" alt="image">
+                                        <a href="http://www.pixelwars.org/">
+                                            <div>
+                                            	<i class="pe-7s-notebook"></i>
+                                                <h2>blog</h2>
+                                                <p>Sometimes i do write about stuff.</p>
+                                                <b>View More</b>
+                                            </div>
+                                        </a>
+                                    </li>-->
+
+                  <!--<li class="cd-item">
+                                   		<img src="images/home/blog.jpg" alt="image">
+                                        <a href="contact.html" data-slug="contact">
+                                            <div>
+                                            	<i class="pe-7s-mail"></i>
+                                                <h2>Contact</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                                <b>View More</b>
+                                            </div>
+                                        </a>
+                                    </li>-->
+                </ul>
+                <!-- .cd-gallery -->
+
+                <!-- .page-bottom -->
+                <div class="page-bottom">
+                  <!-- .row -->
+                  <div class="row">
+                    <!-- .col-md-6 -->
+                    <div class="col-md-6">
+                      <!-- GOOGLE MAP -->
+                      <div class="map">
+                        <div
+                          data-latitude="29.720157"
+                          data-longitude="-95.4013379"
+                          data-zoom="4"
+                          data-marker-image="images/site/marker.png"
+                          id="map-canvas"
+                          class="map-canvas"
+                        ></div>
+                      </div>
+                      <!-- GOOGLE MAP -->
+                    </div>
+                    <!-- .col-md-6 -->
+
+                    <!-- .col-md-6 -->
+                    <div class="col-md-6">
+                      <h4>Drop Me A Line</h4>
+
+                      <!-- .contact-form -->
+                      <div class="contact-form">
+                        <form
+                          id="contact-form"
+                          class="validate-form"
+                          method="post"
+                          action="send-mail.php"
+                        >
+                          <!-- enter mail subject here -->
+                          <input
+                            type="hidden"
+                            name="subject"
+                            id="subject"
+                            value="You have a new message from Photographer!"
+                          />
+
+                          <p>
+                            <label for="name">NAME</label>
                             <input
                               type="text"
-                              class="form-control"
-                              placeholder="Name"
                               name="name"
-                              required
+                              id="name"
+                              class="required"
                             />
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
+                          </p>
 
-                        <div class="col-md-6">
-                          <div class="form-group">
+                          <p>
+                            <label for="email">EMAIL</label>
                             <input
-                              type="email"
-                              class="form-control"
-                              placeholder="Email"
+                              type="text"
                               name="email"
-                              required
+                              id="email"
+                              class="required email"
                             />
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
-                      </div>
+                          </p>
 
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Subject"
-                          name="subject"
-                          required
-                        />
-                        <div class="help-block with-errors"></div>
-                      </div>
+                          <p class="antispam">
+                            Leave this empty if you are a human : <br /><input
+                              name="url"
+                            />
+                          </p>
 
-                      <div class="form-group">
-                        <textarea
-                          class="form-control"
-                          placeholder="Message"
-                          name="message"
-                          rows="5"
-                          required
-                        ></textarea>
-                        <div class="help-block with-errors"></div>
-                      </div>
+                          <p>
+                            <label for="message">MESSAGE</label>
+                            <textarea
+                              name="message"
+                              id="message"
+                              class="required"
+                            ></textarea>
+                          </p>
 
-                      <div class="form-group text-center">
-                        <button type="submit" class="btn-custom btn-color">
-                          Send Message
-                        </button>
+                          <p>
+                            <button class="submit button">Send</button>
+                          </p>
+                        </form>
                       </div>
-                    </form>
+                      <!-- .contact-form -->
+                    </div>
+                    <!-- .col-md-6 -->
+
+                    <!-- .col-md-12 -->
+                    <div class="col-md-12">
+                      <!-- fun-fact -->
+                      <div class="fun-fact">
+                        <i class="pe-7s-map-marker"></i>
+                        <!--<img src="images/site/icon-03.png" alt="image"/>-->
+                        <h4>based in Houston, USA</h4>
+                      </div>
+                      <!-- fun-fact -->
+
+                      <!-- fun-fact -->
+                      <div class="fun-fact">
+                        <i class="pe-7s-call"></i>
+                        <h4>Tel : +123 456 78900</h4>
+                      </div>
+                      <!-- fun-fact -->
+
+                      <!-- fun-fact -->
+                      <div class="fun-fact">
+                        <i class="pe-7s-mail"></i>
+                        <h4>johndoe [at] gmail.com</h4>
+                      </div>
+                      <!-- fun-fact -->
+
+                      <!-- fun-fact -->
+                      <div class="fun-fact">
+                        <i class="pe-7s-check"></i>
+                        <h4>Freelance Available</h4>
+                      </div>
+                      <!-- fun-fact -->
+                    </div>
+                    <!-- .col-md-12 -->
                   </div>
+                  <!-- .row -->
                 </div>
+                <!-- .page-bottom -->
 
-                <div class="col-md-4">
-                  <div class="contact-info-icons">
-                    <div class="contact-info">
-                      <i class="ion-ios-email-outline"></i>
-                      <p>Ahmadanshorri@gmail.com</p>
-                    </div>
-
-                    <div class="contact-info">
-                      <i class="ion-ios-telephone-outline"></i>
-                      <p>085925090097</p>
-                    </div>
-                    <div class="contact-info">
-                      <i class="ion-social-github-outline"></i>
-                      <a href="https://github.com/ahmadanshori">
-                        <p>ahmadanshori</p>
-                      </a>
-                    </div>
-                    <div class="contact-info">
-                      <i class="ion-social-instagram-outline"></i>
-                      <a href="https://www.instagram.com/ahmadanshorri/"
-                        >Ahmad Anshori</a
-                      >
-                    </div>
-                  </div>
-                </div>
+                <!-- InstanceEndEditable -->
               </div>
+              <!-- site-content -->
+            </div>
+            <!-- primary -->
+          </div>
+          <!-- layout -->
+        </div>
+        <!-- site-middle -->
+
+        <!-- .site-footer -->
+        <footer id="colophon" class="site-footer" role="contentinfo">
+          <!-- .site-info -->
+          <div class="site-info">
+            <div class="textwidget">
+              <a href="https://wordpress.org/"
+                >Copyright &copy; 2016 by Pixelwars</a
+              >
             </div>
           </div>
-        </section>
-      </div>
-    </div>
+          <!-- .site-info -->
+        </footer>
+        <!-- .site-footer -->
+      </main>
+      <!-- .site-main -->
 
-    <!--=====================================================
-			JavaScript Files
-		=====================================================-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/validator.min.js"></script>
-    <script src="js/script.js"></script>
+      <!-- .cd-folding-panel -->
+      <div class="cd-folding-panel">
+        <div class="fold-left"></div>
+        <div class="fold-right"></div>
+
+        <div class="cd-fold-content">
+          <!-- content will be loaded using javascript -->
+        </div>
+
+        <a class="cd-close" href="#"></a>
+      </div>
+      <!-- .cd-folding-panel -->
+
+      <!-- ALERT : used for contact form mail delivery alert -->
+      <div class="site-alert animated"></div>
+    </div>
+    <!-- PAGE -->
+
+    <!-- InstanceBeginEditable name="Body-End-Content" -->
+
+    <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+    <div class="p-overlay"></div>
+    <div class="p-overlay"></div>
+
+    <!-- InstanceEndEditable -->
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.address-1.5.min.js"></script>
+    <script src="js/nprogress/nprogress.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/typist.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!--
+        if your map doesn't show by default, you need google map api key;
+        Get you api key here : https://developers.google.com/maps/documentation/javascript/get-api-key
+        and use it like this; 
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>
+        -->
+
+    <script src="js/main.js"></script>
   </body>
+  <!-- InstanceEnd -->
 </html>
